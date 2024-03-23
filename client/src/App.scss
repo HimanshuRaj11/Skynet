@@ -1,0 +1,170 @@
+.container {
+    background-color: #363636;
+    width: 100%;
+    // overflow-y: hidden;
+
+    .hero {
+        background-image: url("https://media.kingston.com/kingston/hero/ktc-hero-blog-gaming-cloud-gaming-advantages-disadvantages-lg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        position: relative;
+
+        .heading {
+            position: relative;
+            top: 10em;
+            left: 3em;
+            width: fit-content;
+            font-size: 125%;
+        }
+    }
+
+    .cprofile {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .img {
+            // height: 13em;
+            width: 45%;
+            img {
+                object-fit: contain;
+                border-radius: 15px;
+            }
+        }
+
+        .text1 {
+            height: 13em;
+            width: 38%;
+        }
+    }
+
+    .cont3 {
+        .h {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .p1 {
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .side1 {
+                width: 40%;
+
+                .texts1 {
+                    margin: 20px 0;
+                }
+            }
+            .side2 {
+                width: 40%;
+            }
+        }
+    }
+
+    .cont4 {
+        .h {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: 19em;
+                height: 24em;
+                background: #fff;
+                margin: 30px;
+
+
+                -webkit-border-top-right-radius: 40px;
+                -webkit-border-bottom-left-radius: 40px;
+                -moz-border-radius-topright: 40px;
+                -moz-border-radius-bottomleft: 40px;
+                border-top-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+
+                align-items: center;
+                justify-content: center;
+           
+                img{
+                    -webkit-border-top-right-radius: 40px;
+                    -moz-border-radius-topright: 40px;
+                    border-top-right-radius: 40px;
+
+                    width: 17em;
+                    height: 15em;
+                }
+
+                .textc{
+                    display: flex;
+                    padding: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    color: #000;
+                    p{
+                        font-size: 15px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .cont5{
+
+        background: url("https://300mind.studio/blog/wp-content/uploads/2024/03/cloud-gaming-vs-traditional-gaming-1.webp");
+        padding: 0 40px;
+        margin: 30px 0;
+        border-radius: 30px;
+        width: 100%;
+        height: 50vh;
+        box-shadow: #6d6d6d ;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .cd{
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            height: 40vh;
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            background-color: #36363681;
+            font-size: 28px;
+        }
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10em;
+        background-color: #252525;
+    }
+}

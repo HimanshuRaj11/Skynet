@@ -1,0 +1,144 @@
+.container {
+  background-color: #363636;
+  width: 100%;
+}
+.container .hero {
+  background-image: url("https://media.kingston.com/kingston/hero/ktc-hero-blog-gaming-cloud-gaming-advantages-disadvantages-lg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+.container .hero .heading {
+  position: relative;
+  top: 10em;
+  left: 3em;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 125%;
+}
+.container .cprofile {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .cprofile .img {
+  width: 45%;
+}
+.container .cprofile .img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 15px;
+}
+.container .cprofile .text1 {
+  height: 13em;
+  width: 38%;
+}
+.container .cont3 .h {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.container .cont3 .p1 {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .cont3 .p1 .side1 {
+  width: 40%;
+}
+.container .cont3 .p1 .side1 .texts1 {
+  margin: 20px 0;
+}
+.container .cont3 .p1 .side2 {
+  width: 40%;
+}
+.container .cont4 .h {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.container .cont4 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.container .cont4 .cards .card {
+  display: flex;
+  flex-direction: column;
+  width: 19em;
+  height: 24em;
+  background: #fff;
+  margin: 30px;
+  -webkit-border-top-right-radius: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.container .cont4 .cards .card img {
+  border-top-right-radius: 40px;
+  width: 17em;
+  height: 15em;
+}
+.container .cont4 .cards .card .textc {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+}
+.container .cont4 .cards .card .textc p {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.container .cont5 {
+  background: url("https://300mind.studio/blog/wp-content/uploads/2024/03/cloud-gaming-vs-traditional-gaming-1.webp");
+  padding: 0 40px;
+  margin: 30px 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 50vh;
+  box-shadow: #6d6d6d;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .cont5 .cd {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 40vh;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 30px;
+  background-color: rgba(54, 54, 54, 0.5058823529);
+  font-size: 28px;
+}
+.container .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10em;
+  background-color: #252525;
+}/*# sourceMappingURL=App.css.map */
