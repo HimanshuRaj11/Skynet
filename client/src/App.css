@@ -59,6 +59,11 @@
 .container .cont3 .p1 .side2 {
   width: 40%;
 }
+.container .cont3 .p1 .side2 img {
+  height: 25em;
+  width: 33em;
+  border-radius: 12px;
+}
 .container .cont4 .h {
   width: 100%;
   display: flex;

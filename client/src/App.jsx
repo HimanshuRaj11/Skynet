@@ -57,12 +57,16 @@ function App() {
               </div>
             </div>
             <div className="side2">
-              <div className="img"></div>
+              <div className="img">
+                <img src="https://www.device42.com/blog/wp-content/uploads/2023/03/14_01edge-cloud-computing.jpg" alt="" />
+              </div>
             </div>
           </div>
           <div className="p1">
             <div className="side2">
-              <div className="img"></div>
+              <div className="img">
+                <img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Uses-of-Cloud-Computing.jpg" alt="" />
+              </div>
             </div>
             <div className="side1">
               <div className="texts1">
@@ -110,7 +114,7 @@ function App() {
             <div className="card">
               <div className="img">
                 <img
-                  src="https://t3.ftcdn.net/jpg/05/70/25/90/360_F_570259027_Mi6rPvmxfEYe7dsBmqINlaZwuG15YOUV.jpg"
+                  src="https://static.toiimg.com/thumb/msid-101944281,width-1280,height-720,resizemode-4/101944281.jpg"
                   alt=""
                 />
               </div>
@@ -127,7 +131,7 @@ function App() {
             <div className="card">
               <div className="img">
                 <img
-                  src="https://t3.ftcdn.net/jpg/05/70/25/90/360_F_570259027_Mi6rPvmxfEYe7dsBmqINlaZwuG15YOUV.jpg"
+                  src="https://i.guim.co.uk/img/media/1398f335c19b28ff52ea08e5fac2339a4d31d58a/0_167_5032_3020/master/5032.jpg?width=1200&quality=85&auto=format&fit=max&s=70cdc98037290e2083c1987e61604d16"
                   alt=""
                 />
               </div>
@@ -144,7 +148,7 @@ function App() {
             <div className="card">
               <div className="img">
                 <img
-                  src="https://t3.ftcdn.net/jpg/05/70/25/90/360_F_570259027_Mi6rPvmxfEYe7dsBmqINlaZwuG15YOUV.jpg"
+                  src="https://www.fifplay.com/img/public/big-gaming-competition.jpg"
                   alt=""
                 />
               </div>
